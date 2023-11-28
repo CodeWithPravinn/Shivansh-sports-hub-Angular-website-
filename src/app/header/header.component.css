@@ -4,19 +4,33 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+
         }
 
         /* Style the navigation bar */
         .navbar {
             background-color: #000000;
             overflow: hidden;
+            height: 118px;
+            position: sticky;
+            top: 0; /* Set the sticky position to the top of the viewport */
+            z-index: 30;
 
         }
 
         /* Style the logo (you can replace 'logo.png' with your logo's path) */
         .logo {
             float: left;
-            padding: 15px 25px  25px 15px;
+            margin-left: 55px;
+            cursor: pointer;
+
+
+        }
+
+        .logo img{
+          width: 170px;
+            height: 75px;
+
         }
 
         /* Style the navigation links */
@@ -32,12 +46,28 @@
 
         /* Change color on hover */
         .navbar a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #ef7f0f;
+            color: rgb(255, 255, 255);
         }
-    .img1{
-      display: inline-block;
-      padding-left: 45px;
-      padding-top: 25px;
+
+
+    .content{
+      margin-right: 250px;
+      display: flex;
+      padding: 5px 5px 5px 5px;
+  font-size: 1.1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
+.content > li{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+margin: 0 40px;
+}
+
+.navbar a{
+  border-radius: 38px;
+}
+
+
