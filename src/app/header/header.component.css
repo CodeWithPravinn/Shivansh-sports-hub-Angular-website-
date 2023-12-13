@@ -1,0 +1,95 @@
+
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+<<<<<<< HEAD
+
+=======
+>>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
+        }
+
+        /* Style the navigation bar */
+        .navbar {
+            background-color: #000000;
+            overflow: hidden;
+<<<<<<< HEAD
+            height: 118px;
+            position: sticky;
+            top: 0; /* Set the sticky position to the top of the viewport */
+            z-index: 30;
+=======
+>>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
+
+        }
+
+        /* Style the logo (you can replace 'logo.png' with your logo's path) */
+        .logo {
+            float: left;
+<<<<<<< HEAD
+            margin-left: 55px;
+            cursor: pointer;
+
+
+        }
+
+        .logo img{
+          width: 170px;
+            height: 75px;
+
+=======
+            padding: 15px 25px  25px 15px;
+>>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
+        }
+
+        /* Style the navigation links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+
+        /* Change color on hover */
+        .navbar a:hover {
+<<<<<<< HEAD
+            background-color: #ef7f0f;
+            color: rgb(255, 255, 255);
+        }
+
+
+    .content{
+      margin-right: 250px;
+      display: flex;
+      padding: 5px 5px 5px 5px;
+  font-size: 1.1em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+.content > li{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+margin: 0 40px;
+}
+
+.navbar a{
+  border-radius: 38px;
+}
+
+
+=======
+            background-color: #ddd;
+            color: black;
+        }
+    .img1{
+      display: inline-block;
+      padding-left: 45px;
+      padding-top: 25px;
+
+    }
+>>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988

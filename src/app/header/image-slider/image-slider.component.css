@@ -1,0 +1,26 @@
+
+
+.div {
+  justify-content: flex-end;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.img2 {
+  aspect-ratio: 3.2;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
