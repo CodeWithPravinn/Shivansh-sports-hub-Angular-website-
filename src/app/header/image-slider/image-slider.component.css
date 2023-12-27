@@ -1,26 +1,65 @@
-
-
-.div {
-  justify-content: flex-end;
-  background-color: #fff;
+ .homepage-group-title-text {
+  top: 150px;
+  left: 262px;
+  width: 552px;
+  height: 246px;
   display: flex;
-  flex-direction: column;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
 }
-.img2 {
-  aspect-ratio: 3.2;
-  object-fit: contain;
-  object-position: center;
-  width: 100%;
-  overflow: hidden;
+.homepage-group-group6 {
+  top: 0px;
+  left: 0px;
+  width: 552px;
+  height: 246px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
 }
-@media (max-width: 991px) {
-  .img {
-    max-width: 100%;
-  }
+.homepage-group-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
-
-
-
+.homepage-group-text02 {
+  top: 66px;
+  left: 332px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 29px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.homepage-group-text09 {
+  top: 21px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 150px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 
 
 

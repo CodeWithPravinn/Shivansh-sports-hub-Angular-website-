@@ -1,0 +1,171 @@
+
+
+ :host {
+  display: contents;
+}
+.karate-activity-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  /* min-height: 100vh; */
+  align-items: center;
+  flex-direction: column;
+}
+.firstimg{
+  width: 100%;
+}
+.karate-activity-karate-activity {
+  width: 1472px;
+  height: 2300px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgb(255, 255, 255);
+}
+.text{
+  font-weight: 400;
+}
+.karate-activity-rectangle17 {
+  top: 110px;
+  left: 3px;
+  width: 1920px;
+  height: 600px;
+  position: absolute;
+}
+.whatsapp{
+  margin: 110px 0px 0px 10px;
+}
+.karate-activity-text {
+  top: 200px;
+  left: 100px;
+  color: rgba(0, 0, 0, 1);
+  width: 971px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: SemiBold;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.karate-activity-text001 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text007 {
+  font-weight: 400;
+}
+.karate-activity-text039 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text043 {
+  font-weight: 400;
+}
+.karate-activity-text053 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text057 {
+  font-weight: 400;
+}
+.karate-activity-text067 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text071 {
+  font-weight: 400;
+}
+.karate-activity-text081 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text085 {
+  font-weight: 400;
+
+}
+.karate-activity-text095 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.karate-activity-text105 {
+  top: 10px;
+  left: 630px;
+  color: var(--dl-color-default-pureblack);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.karate-activity-time-table {
+  top: 170px;
+  left: 1100px;
+  width: 283px;
+  height: 510px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid black; */
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  box-shadow: 0px 10px 18px 10px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+
+
+}
+.karate-activity-rectangle19 {
+  top: 1px;
+  left: 0px;
+  width: 283px;
+  height: 84px;
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+}
+.karate-activity-text107 {
+  top: 16px;
+  left: 79px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.karate-activity-text109 {
+  top: 100px;
+  left: 20px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.reasons{
+  font-weight: 600;
+}

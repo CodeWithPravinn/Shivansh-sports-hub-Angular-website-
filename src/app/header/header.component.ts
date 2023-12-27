@@ -7,8 +7,4 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
 }

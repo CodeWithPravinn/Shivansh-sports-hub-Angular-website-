@@ -4,30 +4,22 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-<<<<<<< HEAD
-
-=======
->>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
         }
 
         /* Style the navigation bar */
         .navbar {
             background-color: #000000;
             overflow: hidden;
-<<<<<<< HEAD
             height: 118px;
             position: sticky;
             top: 0; /* Set the sticky position to the top of the viewport */
             z-index: 30;
-=======
->>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
 
         }
 
         /* Style the logo (you can replace 'logo.png' with your logo's path) */
         .logo {
             float: left;
-<<<<<<< HEAD
             margin-left: 55px;
             cursor: pointer;
 
@@ -38,9 +30,6 @@
           width: 170px;
             height: 75px;
 
-=======
-            padding: 15px 25px  25px 15px;
->>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
         }
 
         /* Style the navigation links */
@@ -56,7 +45,6 @@
 
         /* Change color on hover */
         .navbar a:hover {
-<<<<<<< HEAD
             background-color: #ef7f0f;
             color: rgb(255, 255, 255);
         }
@@ -82,14 +70,38 @@ margin: 0 40px;
 }
 
 
-=======
-            background-color: #ddd;
-            color: black;
-        }
-    .img1{
-      display: inline-block;
-      padding-left: 45px;
-      padding-top: 25px;
+@media only screen and (max-width: 767px) {
+  .navbar {
+      height: auto;
+  }
 
-    }
->>>>>>> e81d6eeb21151b253f0a3ce0d8fc3c2a485fb988
+  .logo {
+      margin-left: 10px;
+  }
+
+  .logo img {
+      width: 100px;
+      height: auto;
+  }
+
+  .navbar a {
+      padding: 14px;
+      border-radius: 0;
+  }
+
+  .content {
+      margin-right: 10px;
+      padding: 5px;
+      font-size: 1em;
+  }
+
+  .content > li {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      margin: 0 10px;
+  }
+}
+
+
