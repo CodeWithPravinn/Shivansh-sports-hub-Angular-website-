@@ -173,7 +173,7 @@
 .join-us-karate-container {
   width: 100%;
   display: flex;
-  overflow: auto;
+  overflow: hidden;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -585,3 +585,214 @@
 
 
 
+/* for mobile phone view port code start from here */
+
+@media only screen and (max-width: 600px){
+
+:host {
+  display: contents;
+}
+.mobile-web-karate-activity-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.mobile-web-karate-activity-mobile-web-karate-activity {
+  width: 100%;
+  height: 5800px;
+  top: 10px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.mobile-web-karate-activity-karate {
+  top: 133px;
+  left: 0px;
+  width: 412px;
+  height: 280px;
+  position: absolute;
+  z-index: 2;
+}
+.mobile-web-karate-activity-text {
+  top: 300px;
+  left: 158px;
+  color: var(--dl-color-default-pureblack);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mobile-web-karate-activity-text002 {
+  top: 370px;
+  left: 20px;
+  color: rgba(0, 0, 0, 1);
+  width: 320px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mobile-web-karate-activity-text003 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-text009 {
+  font-weight: 400;
+}
+.mobile-web-karate-activity-text041 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-text045 {
+  font-weight: 400;
+}
+.mobile-web-karate-activity-text055 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-text059 {
+  font-weight: 400;
+}
+.mobile-web-karate-activity-text069 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-text073 {
+  font-weight: 400;
+}
+.mobile-web-karate-activity-text083 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-text087 {
+  font-weight: 400;
+}
+.mobile-web-karate-activity-text097 {
+  font-weight: 600;
+}
+.mobile-web-karate-activity-group10 {
+  top: 5430px;
+  left: 115px;
+  width: 171px;
+  height: 298px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 10px 38px 30px rgba(0, 0, 0, 0.1);
+}
+.mobile-web-karate-activity-rectangle19 {
+  top: 0.6025000214576721px;
+  left: 0px;
+  width: 171px;
+  height: 51px;
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+}
+.mobile-web-karate-activity-text107 {
+  top: 9.640000343322754px;
+  left: 49.99984359741211px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mobile-web-karate-activity-text109 {
+  top: 60.25px;
+  left: 12.050000190734863px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mobile-web-karate-activity-join-us-registration-form-mobile-web-group {
+  top: 3592px;
+  left: 0px;
+  width: 360px;
+  height: 337px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.mobile-web-karate-activity-join-us-header {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 43px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-image: linear-gradient(180deg, rgba(193, 0, 0, 1) 0%, rgba(69, 0, 0, 1) 100%);
+}
+.mobile-web-karate-activity-text157 {
+  top: 7px;
+  left: 99px;
+  color: var(--dl-color-default-purewhitecolor);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.mobile-web-karate-activity-rectangle22 {
+  top: 43px;
+  left: 0px;
+  width: 360px;
+  height: 294px;
+  position: absolute;
+}
+.mobile-web-karate-activity-join-us-form-mobile-version {
+  top: 62px;
+  left: 81px;
+  width: 198px;
+  height: 256px;
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 176px 49px 0px rgba(0, 0, 0, 0) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.mobile-web-karate-activity-rectangle49 {
+  top: 0px;
+  left: 0px;
+  width: 198px;
+  height: 256px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+}

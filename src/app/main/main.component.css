@@ -1,38 +1,200 @@
 
-.main-container {
+@media only screen and (min-width: 1025px)
+{
+:host {
+  display: contents;
+}
+.about-us-group1-container {
+  width: 100%;
   display: flex;
+  overflow: auto;
+  /* min-height: 100vh; */
+  align-items: center;
   flex-direction: column;
   overflow: hidden;
-  position: relative;
+}
+.about-us-group1-about-us-group {
+  width: 1920px;
+  height: 577px;
   display: flex;
-  min-height: 577px;
-  align-items: center;
-  padding: 0 20px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
 }
-
-.image-wrapper {
+.about-us-group1-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 577px;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  z-index: 1;
+
+}
+.about-us-group1-group14 {
+  top: 15px;
+  left: 262px;
+  width: 1396px;
+  height: 540px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.about-us-group1-text {
+  top: 205px;
+  color: rgba(255, 255, 255, 1);
+  width: 1396px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-group1-text01 {
+  color: rgba(255, 255, 255, 1);
+}
+.about-us-group1-text09 {
+  color: var(--dl-color-default-brandcolor1);
+}
+.about-us-group1-text13 {
+  color: rgba(255, 255, 255, 1);
+}
+.about-us-group1-text17 {
+  color: var(--dl-color-default-brandcolor1);
+}
+.about-us-group1-text22 {
+  top: 81px;
+  left: 590px;
+  color: var(--Pure-White-Color, #FFF);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.about-us-group1-pngwing1 {
+  top: 0px;
+  left: 240px;
+  width: 201px;
+  height: 195px;
+  position: absolute;
+}
+.about-us-group1-pngwing2 {
+  top: 0px;
+  left: 922px;
+  width: 238px;
+  height: 195px;
+  position: absolute;
+}
 }
 
-.image-wrapper-2 {
-  aspect-ratio: 2.59;
-  object-fit: contain;
-  object-position: center;
-  width: 100%;
-  overflow: hidden;
-  max-width: 1396px;
-  margin: 15px 0 22px;
-  z-index: 2;
-}
 
-@media (max-width: 991px) {
-  .image-wrapper-2 {
-    max-width: 100%;
+/* for mobile code starts here */
+
+@media only screen and (max-width: 600px) {
+  :host {
+    display: contents;
   }
-}
+  .about-us-group1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    /* min-height: 100vh; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-us-group1-about-us-group {
+    width: 400px;
+    height: 773px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .about-us-group1-rectangle7 {
+    top: 0px;
+    left: -10px;
+    width: 416px;
+    height: 773px;
+    position: absolute;
 
+  }
+  .about-us-group1-group14 {
+    top: 13.16118049621582px;
+    left: 20px;
+    width: 320px;
+    height: 682.6265869140625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .about-us-group1-text {
+    top: 111.30756378173828px;
+    left: 16px;
+    color: rgba(255, 255, 255, 1);
+    width: 320px;
+    height: auto;
+    position: absolute;
+    font-size: 10.5px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-group1-text01 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .about-us-group1-text09 {
+    color: var(--dl-color-default-brandcolor1);
+  }
+  .about-us-group1-text13 {
+    color: rgba(255, 255, 255, 1);
+  }
+  .about-us-group1-text17 {
+    color: var(--dl-color-default-brandcolor1);
+  }
+  .about-us-group1-text22 {
+    top: 29.832056045532227px;
+    left: 128px;
+    color: var(--Pure-White-Color, #FFF);
+    width: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: justified;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-us-group1-pngwing1 {
+    top: 0px;
+    left: 4px;
+    width: 108px;
+    height: 91px;
+    position: absolute;
+  }
+  .about-us-group1-pngwing2 {
+    top: 2.6322836875915527px;
+    left: 229px;
+    width: 88px;
+    height: 86px;
+    position: absolute;
+  }
+
+}

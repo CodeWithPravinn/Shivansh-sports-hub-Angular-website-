@@ -7,6 +7,7 @@
         }
 
         /* Style the navigation bar */
+
         .navbar {
             background-color: #000000;
             overflow: hidden;
@@ -70,13 +71,24 @@ margin: 0 40px;
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .navbar {
       height: auto;
+      position: sticky;
+            top: 0; /* Set the sticky position to the top of the viewport */
+            z-index: 30;
+            background-color: #000000;
+            overflow: hidden;
+
   }
+  .navbar a:hover {
+    background-color: #ef7f0f;
+    color: rgb(255, 255, 255);
+}
 
   .logo {
-      margin-left: 10px;
+      margin-left: 150px;
+      margin-top: 30px;
   }
 
   .logo img {

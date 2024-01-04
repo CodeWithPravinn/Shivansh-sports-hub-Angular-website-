@@ -1,5 +1,5 @@
 
-
+@media only screen and (min-width: 1025px){
  :host {
   display: contents;
 }
@@ -44,6 +44,7 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+
 }
 .sports-activity-group-sports-activity-cards {
   top: 296px;
@@ -405,4 +406,424 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+}
+/* for mobile responsiveness , code starts from here */
+
+@media only screen and (max-width: 600px) {
+
+  .sports-activity-group-container {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    background-color: black;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .sports-activity-group-sports-activity-group {
+    width: 360px;
+    height: 568px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .sports-activity-group-rectangle8 {
+    top: 0px;
+    left: 0px;
+    width: 412px;
+    height: 568px;
+    opacity: 0.50;
+    position: absolute;
+
+  }
+   /* .sports-activity-group-text {
+    top: 20.041004180908203px;
+    left: 75px;
+    color: rgba(255, 255, 255, 0.8999999761581421);
+    width: 211px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  } */
+  .activitytext{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8999999761581421);
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    margin-left: 73px;
+    margin-top: 42px;
+    line-height: normal;
+    font-stretch: normal;
+  }
+  .sports-activity-group-sports-activity-cards {
+    top: 108px;
+    left: 60px;
+    width: 290px;
+    height: 432px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .sports-activity-group1-karate {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle12 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle16 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text02 {
+    top: 97px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text04 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-skating {
+    top: 0px;
+    left: 160px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle13 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle161 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text06 {
+    top: 89px;
+    left: 32px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text08 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-football:hover .sports-activity-group-text{
+    display: block;
+  }
+  .sports-activity-group-text{
+    display: none;
+    position: absolute;
+  }
+  .sports-activity-group-football {
+    top: 151px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle14 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle162 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text10 {
+    top: 90px;
+    left: 27px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text12 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-volley-ball {
+    top: 151px;
+    left: 160px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle15 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle163 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text14 {
+    top: 85px;
+    left: 38px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 101.49999856948853%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text16 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-table-tennis {
+    top: 302px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle151 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle164 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text18 {
+    top: 85px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 101.49999856948853%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text23 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-billiard-pool {
+    top: 302px;
+    left: 160px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle152 {
+    top: 0px;
+    left: 0px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .sports-activity-group-rectangle165 {
+    top: 60px;
+    left: 0px;
+    width: 130px;
+    height: 70px;
+    position: absolute;
+  }
+  .sports-activity-group-text25 {
+    top: 85px;
+    left: 33px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 101.49999856948853%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .sports-activity-group-text30 {
+    top: 144px;
+    left: 39px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Regular;
+    text-align: justified;
+    font-family: Scada;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
 }
