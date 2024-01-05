@@ -265,9 +265,14 @@
     flex-shrink: 1;
     left: 0px;
 }
-.contact-us-basemapimage {
+ .contact-us-basemapimage {
   top: 390px;
   left: 40px;
+  position: absolute;
+}
+ iframe {
+  width: 330px;
+  height: 319px;
   position: absolute;
 }
 .contact-us-text {
@@ -286,8 +291,8 @@
   text-decoration: none;
 }
 .contact-us-text02 {
-  top: 568px;
-  left: 47px;
+  top: 548px;
+  left: 49px;
   color: rgba(255, 255, 255, 1);
   height: auto;
   position: absolute;

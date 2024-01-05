@@ -61,5 +61,11 @@
   text-decoration: none;
 }
 
-
-
+@media only screen and (max-width: 600px){
+  .homepage-group-group6{
+      display: none;
+}
+.homepage-group-title-text{
+  display: none;
+}
+}

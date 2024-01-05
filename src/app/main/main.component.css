@@ -1,6 +1,5 @@
 
-@media only screen and (min-width: 1025px)
-{
+
 :host {
   display: contents;
 }
@@ -95,7 +94,7 @@
   height: 195px;
   position: absolute;
 }
-}
+
 
 
 /* for mobile code starts here */
@@ -113,7 +112,7 @@
     flex-direction: column;
   }
   .about-us-group1-about-us-group {
-    width: 400px;
+    width: 100%;
     height: 773px;
     display: flex;
     position: relative;
@@ -122,8 +121,8 @@
   }
   .about-us-group1-rectangle7 {
     top: 0px;
-    left: -10px;
-    width: 416px;
+    left: 0px;
+    width: 100%;
     height: 773px;
     position: absolute;
 
@@ -140,7 +139,7 @@
   }
   .about-us-group1-text {
     top: 111.30756378173828px;
-    left: 16px;
+    left: 30px;
     color: rgba(255, 255, 255, 1);
     width: 320px;
     height: auto;
@@ -168,7 +167,7 @@
   }
   .about-us-group1-text22 {
     top: 29.832056045532227px;
-    left: 128px;
+    left: 148px;
     color: var(--Pure-White-Color, #FFF);
     width: 90px;
     height: auto;
@@ -184,14 +183,14 @@
   }
   .about-us-group1-pngwing1 {
     top: 0px;
-    left: 4px;
+    left: 25px;
     width: 108px;
     height: 91px;
     position: absolute;
   }
   .about-us-group1-pngwing2 {
     top: 2.6322836875915527px;
-    left: 229px;
+    left: 261px;
     width: 88px;
     height: 86px;
     position: absolute;
